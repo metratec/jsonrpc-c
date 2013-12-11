@@ -1,0 +1,23 @@
+Source: jsonrpc-c
+Priority: extra
+Maintainer: Robin Haberkorn <robin.haberkorn@googlemail.com>
+Build-Depends: debhelper (>= 8), autotools-dev, libev-dev
+Standards-Version: 3.9.4
+Section: libs
+Homepage: https://github.com/hmng/jsonrpc-c
+Vcs-Git: https://github.com/metratec/jsonrpc-c.git
+Vcs-Browser: https://github.com/hmng/jsonrpc-c
+
+Package: libjsonrpcc-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, libjsonrpcc0 (= ${binary:Version}), libev-dev
+Description: jsonrpc-c development headers
+ jsonrpc-c development headers for compiling with libjsonrpcc
+
+Package: libjsonrpcc0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libev4
+Description: jsonrpc-c
+ jsonrpc-c runtime libraries
