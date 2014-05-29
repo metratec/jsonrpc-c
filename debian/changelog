@@ -1,5 +1,11 @@
+jsonrpc-c (0.1-2) unstable; urgency=low
+
+  * IPv6 support
+
+ -- Robin Haberkorn <haberkorn@metratec.com>  Thu, 29 May 2014 21:03:16 +0200
+
 jsonrpc-c (0.1-1) unstable; urgency=low
 
   * Initial release
 
- -- Robin Haberkorn <robin.haberkorn@googlemail.com>  Wed, 11 Dec 2013 17:51:04 +0100
+ -- Robin Haberkorn <haberkorn@metratec.com>  Wed, 11 Dec 2013 17:51:04 +0100
